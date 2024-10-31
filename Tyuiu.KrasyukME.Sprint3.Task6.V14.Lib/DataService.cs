@@ -8,9 +8,9 @@ namespace Tyuiu.KrasyukME.Sprint3.Task6.V14.Lib
             int sum = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                for (int d = 5; d < x; d++)
+                for (int d = 1; d <= x; d++)
                 {
-                    if (x % d == 7 && d > 16)
+                    if (x % d == 0 && d > 5)
                     {
                         sum += d;
                     }
