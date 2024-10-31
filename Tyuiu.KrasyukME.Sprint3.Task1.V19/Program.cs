@@ -10,7 +10,7 @@ namespace Tyuiu.KrasyukME.Sprint3.Task1.V19
             Console.WriteLine("* Тема:                                                                    *");
             Console.WriteLine("* Задание #1                                                               *");
             Console.WriteLine("* Вариант #19                                                              *");
-            Console.WriteLine("* Выполнила: Красюк Мария Евгеньевна | АСОиУБ-24-1                         *");
+            Console.WriteLine("* Выполнила: Красюк Мария Евгеньевна | ИБКСб-24-1                          *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
