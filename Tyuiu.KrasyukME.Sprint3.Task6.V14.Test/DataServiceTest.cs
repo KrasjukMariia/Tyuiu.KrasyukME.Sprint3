@@ -5,13 +5,14 @@ namespace Tyuiu.KrasyukME.Sprint3.Task6.V14.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckParts()
+        public void ValidGetSumTheDivisors()
         {
-            DataService DataService = new DataService();
-            int startValue = 7;
-            int stopValue = 16;
-            int sum = DataService.GetSumTheDivisors(startValue, stopValue);
-            Assert.AreEqual(sum, 136);
+            DataService ds = new DataService();
+            int start = 7;
+            int stop = 16;
+            int res = ds.GetSumTheDivisors(start, stop);
+            int wait = 5;
+            Assert.AreEqual(res, wait);
         }
     }
 }
