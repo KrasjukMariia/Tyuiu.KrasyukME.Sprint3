@@ -5,27 +5,18 @@ namespace Tyuiu.KrasyukME.Sprint3.Task6.V14.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int x;
-            int count1 = 0;
-            int count2 = 0;
-            for (x = startValue; x <= stopValue; x++)
+            int sum = 0;
+            for (int x = startValue; x <= stopValue; x++)
             {
-                for (int j = 1; j <= x; j++)
+                for (int d = 5; d < x; d++)
                 {
-                    if (x % j == 0)
+                    if (x % d == 7 && d > 16)
                     {
-                        if (j > 5)
-                        {
-                            count2++;
-                        }
+                        sum += d;
                     }
                 }
-                if (count2 > 5)
-                {
-                    count1++;
-                }
             }
-            return count1;
+            return sum;
         }
     }
 }

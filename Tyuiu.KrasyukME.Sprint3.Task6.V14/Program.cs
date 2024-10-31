@@ -13,10 +13,10 @@ namespace Tyuiu.KrasyukME.Sprint3.Task6.V14
             Console.WriteLine("* Вариант #5                                                               *");
             Console.WriteLine("* Выполнила: Красюк Мария Евгеньевна | ИБКСб-24-1                         *");
             Console.WriteLine("***************************************************************************");
-            int start = 7;
-            int stop = 16;
-            int res = ds.GetSumTheDivisors(start, stop);
-            Console.WriteLine(res);
+            int startValue = 7;
+            int stopValue = 16;
+            int sum = ds.GetSumTheDivisors(startValue, stopValue);
+            Console.WriteLine(sum);
             Console.ReadKey();
         }
     }
