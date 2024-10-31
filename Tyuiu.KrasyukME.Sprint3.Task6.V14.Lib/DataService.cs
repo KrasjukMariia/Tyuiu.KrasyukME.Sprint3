@@ -12,7 +12,7 @@ namespace Tyuiu.KrasyukME.Sprint3.Task6.V14.Lib
                 {
                     if (x % d == 0 && d > 5)
                     {
-                        sum += d;
+                        sum++;
                     }
                 }
             }
